@@ -5,10 +5,116 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba 11111</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./styles/flickity.css" media="screen">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 
-    <h1>Holi</h1>
+    <ul class="container">
+        <li><a class="active" href="./index.html"><img src="./images/Showmac.png" alt=""></a></li>
+        <li><a href="./pages/servicios.html">Servicios</a></li>
+        <li><a href="./pages/galieria.html">Galería</a></li>
+        <li><a href="./pages/contacto.html">Contacto</a></li>
+    </ul>
+
+    <video width="100%" height="100%" autoplay loop>
+        <source src="./videos/Secuencia 01.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+        <div class="container-grid">
+            <div class="evento1">
+                <h1>¿Quiénes somos?</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi adipisci quaerat quos blanditiis doloribus exercitationem dolorum sint eum. Sunt, neque?</p>
+            </div>
+            <div class="evento2">
+                <h1>¿Quiénes somos?</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi adipisci quaerat quos blanditiis doloribus exercitationem dolorum sint eum. Sunt, neque?</p>
+            </div>
+            <div class="evento3">
+                <h1>¿Quiénes somos?</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi adipisci quaerat quos blanditiis doloribus exercitationem dolorum sint eum. Sunt, neque?</p>
+            </div>
+            <div class="evento4">
+                <h1>¿Quiénes somos?</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi adipisci quaerat quos blanditiis doloribus exercitationem dolorum sint eum. Sunt, neque?</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container-grid2">
+            <div class="imagen1">
+                <img src="./images/img1.PNG" alt="">
+            </div>
+            <div class="imagen2">
+                <img src="./images/img2.jpg" alt="">
+            </div>
+            <div class="imagen3">
+                <img src="./images/img3.jpg" alt="">
+            </div>
+            <div class="imagen4">
+                <img src="./images/img4.jpg" alt="">
+            </div>
+            <div class="imagen5">
+                <img src="./images/Showmac.png" alt="" style="background-color: transparent; height: 200px;">
+            </div>
+            <div class="button-grid">
+                <button class="button button-mas">Ver más</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container-grid3">
+            <div class="serv1">
+                <h1>Servicios</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dolores officiis maxime fugiat culpa in aliquam mollitia perspiciatis dignissimos nam illo.</p>
+            </div>
+            <div class="serv2">
+                <h1>Servicios</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dolores officiis maxime fugiat culpa in aliquam mollitia perspiciatis dignissimos nam illo.</p>
+                </div>
+        </div>
+    </div>
+
+    <div class="gallery js-flickity"
+        data-flickity-options='{ "cellAlign": "left", "contain": true }'>
+        <div class="gallery-cell">
+            <img src="./images/carrusel1.jpg" alt="">
+        </div>
+        <div class="gallery-cell">
+            <img src="./images/carrusel2.jpg" alt="">
+        </div>
+        <div class="gallery-cell">
+            <img src="./images/carrusel3.jpg" alt="">
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container-footer">
+            <div class="footer1">
+                <h2>¡Visita nuestras redes sociales!</h2>
+            </div>
+            <div class="footer2">
+                <a href="https://www.facebook.com/showmac.mx.1" target="_blank" class="fb">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+            <div class="footer3">
+                <a href="https://www.instagram.com/showmacmx/?hl=es-la" target="_blank" class="insta">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/reveal.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     
 </body>
 </html>
