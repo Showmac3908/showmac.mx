@@ -183,6 +183,22 @@ a {
     object-fit: cover;
 }
 
+.gallery-page {
+    height: 600px;
+}
+
+.gallery-img{
+    border-radius: 20px;
+}
+
+.gallery-img-container{
+    height: 600px;
+}
+
+.gallery-img-container img{
+    height: 600px;
+}
+
 footer {
     display: flex;
     justify-content: center;

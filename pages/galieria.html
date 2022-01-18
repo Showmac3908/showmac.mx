@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Showmac</title>
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../styles/flickity.css" media="screen">
 </head>
 <body>
 
@@ -14,7 +16,41 @@
         <li><a href="./servicios.html">Servicios</a></li>
         <li><a href="./galieria.html">Galería</a></li>
         <li><a href="./contacto.html">Contacto</a></li>
-      </ul>
+    </ul>
+
+    <div class="gallery js-flickity gallery-page"
+        data-flickity-options='{ "cellAlign": "left", "contain": true }'>
+        <div class="gallery-cell gallery-img-container">
+            <img src="../images/carrusel1.jpg" alt="" class="gallery-img">
+        </div>
+        <div class="gallery-cell gallery-img-container">
+            <img src="../images/carrusel2.jpg" alt="" class="gallery-img">
+        </div>
+        <div class="gallery-cell gallery-img-container">
+            <img src="../images/carrusel3.jpg" alt="" class="gallery-img">
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container-footer">
+            <div class="footer1">
+                <h2>¡Visita nuestras redes sociales!</h2>
+            </div>
+            <div class="footer2">
+                <a href="https://www.facebook.com/showmac.mx.1" target="_blank" class="fb">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+            <div class="footer3">
+                <a href="https://www.instagram.com/showmacmx/?hl=es-la" target="_blank" class="insta">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+      
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     
 </body>
 </html>
