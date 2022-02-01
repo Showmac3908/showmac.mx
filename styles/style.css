@@ -39,6 +39,18 @@ a {
     font-size: 30px;
 }
 
+#pages:hover{
+    font-size: 38px;
+}
+
+#page-img, #pages {
+    transition: all .3s;
+}
+
+#page-img:hover {
+    height: 58px;
+}
+
 .container-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -120,6 +132,7 @@ a {
 
 .imagen5 img {
     background-color: transparent;
+    height: 200px;
 }
 
 .button-grid {
@@ -178,26 +191,26 @@ a {
 }
 
 .gallery {
-    height: 800px;
+    height: 1200px;
     background: #EEE;
 }
 
 .gallery-cell {
     width: 100%;
-    height: 800px;
+    height: 1200px;
     margin-right: 10px;
     font-size: 40px;
     counter-increment: gallery-cell;
 }
 
 .gallery-cell img {
-    height: 800px;
+    height: 1200px;
     width: 100%;
     object-fit: cover;
 }
 
 .gallery-page {
-    height: 600px;
+    height: 1000px;
 }
 
 .gallery-img{
@@ -205,11 +218,11 @@ a {
 }
 
 .gallery-img-container{
-    height: 600px;
+    height: 1000px;
 }
 
 .gallery-img-container img{
-    height: 600px;
+    height: 1000px;
 }
 
 footer {

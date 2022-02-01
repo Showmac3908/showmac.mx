@@ -3,7 +3,7 @@
     width: 100%;
     padding: 2%;
     box-sizing: border-box;
-    height: 90vh;
+    height: 900px;
 }
 
 .box {
@@ -17,17 +17,17 @@
 
 .box > img {
     width: 200%;
-    height: calc(100% - 10vh);
+    height: calc(100% - 5vh);
     object-fit: cover;
     transition: .5s;
 }
 
 .box > span {
-    font-size: 3.8vh;
+    font-size: 3.4vh;
     display: block;
     text-align: center;
-    height: 10vh;
-    line-height: 2.6;
+    height: 6vh;
+    line-height: 1.6;
     background-color: white;
 }
 
