@@ -1,0 +1,8 @@
+.parallax {
+    background-image: url('../images/about2.png');
+    height: 840px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

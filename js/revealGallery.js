@@ -1,0 +1,12 @@
+ScrollReveal().reveal(".box1", {delay: 400});
+ScrollReveal().reveal(".box2", {delay: 600});
+ScrollReveal().reveal(".box3", {delay: 400});
+ScrollReveal().reveal(".box4", {delay: 600});
+ScrollReveal().reveal(".box5", {delay: 400});
+ScrollReveal().reveal(".box6", {delay: 400});
+ScrollReveal().reveal(".box7", {delay: 600});
+ScrollReveal().reveal(".box8", {delay: 800});
+ScrollReveal().reveal(".box9", {delay: 400});
+ScrollReveal().reveal(".box10", {delay: 600});
+ScrollReveal().reveal(".box11", {delay: 400});
+ScrollReveal().reveal(".box12", {delay: 600});

@@ -107,3 +107,43 @@
     background-color: transparent;
     font-size: 80px;
 }
+
+@media (max-width: 1500px) {
+    .wrapper {
+        max-width: 1110px;
+    }
+
+    .wrapper > img {
+        height: 185px;
+    }
+
+    #servicio1 {
+        top: 900px;
+        right: 650px;
+        font-size: 46px;
+    }
+
+    #servicio2 {
+        top: 1100px;
+        right: 600px;
+        font-size: 46px;
+    }
+
+    #servicio3 {
+        top: 1290px;
+        right: 760px;
+        font-size: 46px;
+    }
+
+    #servicio4 {
+        top: 960px;
+        right: 230px;
+        font-size: 46px;
+    }
+
+    #servicio5 {
+        top: 1200px;
+        right: 230px;
+        font-size: 46px;
+    }
+}

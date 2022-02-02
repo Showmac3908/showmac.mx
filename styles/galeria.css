@@ -19,7 +19,7 @@
     width: 200%;
     height: calc(100% - 5vh);
     object-fit: cover;
-    transition: .5s;
+    transition: 1s;
 }
 
 .box > span {
@@ -38,4 +38,10 @@
 .box:hover > img {
     width: 100%;
     height: 100%;
+}
+
+@media (max-width: 1500px) {
+    .container-imgs {
+        height: 600px;
+    }
 }

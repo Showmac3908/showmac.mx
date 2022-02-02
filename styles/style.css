@@ -10,6 +10,10 @@
     align-items: center;
 }
 
+#myVid {
+    border-bottom: -5px;
+}
+
 img {
     left: 0;
     height: 50px;
@@ -58,6 +62,11 @@ a {
     width: 1500px;
     height: 800px;
     align-self: center;
+    background: transparent;
+}
+
+.evento1, .evento2, .evento3, .evento4, .container-grid h1, .container-grid p {
+    background: transparent;
 }
 
 .evento1 {
@@ -328,6 +337,25 @@ footer h2 {
         font-size: 50px;
     }
 
+    .flickity-viewport {
+        height: 590px;
+    }
+
+    .gallery {
+        height: 600px;
+    }
+
+    .flickity-viewport {
+        height: 600px;
+    }
+
+    .gallery-cell {
+        height: 600px;
+    }
+
+    .gallery-cell img {
+        height: 600px;
+    }
 }
 
 @media (max-width: 1100px) {
