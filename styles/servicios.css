@@ -2,7 +2,7 @@
     overflow: hidden;
     display: flex;
     align-items: center;
-    padding-bottom: 250px;
+    padding-bottom: 500px;
     padding-top: 250px;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .wrapper > img:hover {
-    z-index: 2;
+    z-index: 3;
     transform: scale(2);
     -webkit-filter: grayscale(0);
     filter: none;
@@ -53,3 +53,57 @@
     margin-top: 50px;
 }
 
+#servicio1 {
+    position: absolute;
+    top: 975px;
+    right: 1280px;
+    z-index: 2;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+    background-color: transparent;
+    font-size: 80px;
+}
+
+#servicio2 {
+    position: absolute;
+    top: 1285px;
+    right: 1165px;
+    z-index: 2;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+    background-color: transparent;
+    font-size: 80px;
+}
+
+#servicio3 {
+    position: absolute;
+    top: 1615px;
+    right: 1440px;
+    z-index: 2;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+    background-color: transparent;
+    font-size: 80px;
+}
+
+#servicio4 {
+    position: absolute;
+    top: 1050px;
+    right: 515px;
+    z-index: 2;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+    background-color: transparent;
+    font-size: 80px;
+}
+
+#servicio5 {
+    position: absolute;
+    top: 1445px;
+    right: 545px;
+    z-index: 2;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+    background-color: transparent;
+    font-size: 80px;
+}

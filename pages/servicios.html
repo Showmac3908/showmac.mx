@@ -27,18 +27,53 @@
         </div>
     </div>
 
+    <h3 id="servicio1">Realidad Aumentada</h3>
+    <h3 id="servicio2">Producción de espectáculos</h3>
+    <h3 id="servicio3">Marketing Digital</h3>
+    <h3 id="servicio4">Live Streaming</h3>
+    <h3 id="servicio5">Desarrollo audivisual</h3>
+
     <div class="container-wrapper">
-        <div class="wrapper">
-            <img src="https://source.unsplash.com/random/600x600?paint" alt="">
-            <img src="https://source.unsplash.com/random/600x600?fashion" alt="">
-            <img src="https://source.unsplash.com/random/600x600?virtual" alt="">
-            <img src="https://source.unsplash.com/random/600x600?woods" alt="">
-            <img src="https://source.unsplash.com/random/600x600?tech" alt="">
-            <img src="https://source.unsplash.com/random/600x600?computer" alt="">
-            <img src="https://source.unsplash.com/random/600x600?food" alt="">
-            <img src="https://source.unsplash.com/random/600x600?film" alt="">
-            <img src="https://source.unsplash.com/random/600x600?camera" alt="">
-            <img src="https://source.unsplash.com/random/600x600?girls" alt="">
+        <div class="wrapper" id="wrapper">
+            <img src="https://source.unsplash.com/random/600x600?water" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?water" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?fire" alt="" class="img2">
+            <img src="https://source.unsplash.com/random/600x600?water" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?water" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?fire" alt="" class="img2">
+            <img src="https://source.unsplash.com/random/600x600?fire" alt="" class="img2">
+            <img src="https://source.unsplash.com/random/600x600?air" alt="" class="img3">
+            <img src="https://source.unsplash.com/random/600x600?air" alt="" class="img3">
+            <img src="https://source.unsplash.com/random/600x600?fire" alt="" class="img2">
+            <img src="https://source.unsplash.com/random/600x600?air" alt="" class="img3">
+            <img src="https://source.unsplash.com/random/600x600?air" alt="" class="img3">
+            <img src="https://source.unsplash.com/random/600x600?ground" alt="" class="img4">
+            <img src="https://source.unsplash.com/random/600x600?ground" alt="" class="img4">
+            <img src="https://source.unsplash.com/random/600x600?film" alt="" class="img5">
+            <img src="https://source.unsplash.com/random/600x600?ground" alt="" class="img4">
+            <img src="https://source.unsplash.com/random/600x600?ground" alt="" class="img4">
+            <img src="https://source.unsplash.com/random/600x600?film" alt="" class="img5">
+            <img src="https://source.unsplash.com/random/600x600?film" alt="" class="img5">
+
+            <!-- <img src="https://source.unsplash.com/random/600x600?water" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?water" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?fire" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?water" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?water" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?fire" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?fire" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?air" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?air" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?fire" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?air" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?air" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?ground" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?ground" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?film" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?ground" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?ground" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?film" alt="" class="img1">
+            <img src="https://source.unsplash.com/random/600x600?film" alt="" class="img1">-->
         </div>
     </div>
 
@@ -82,6 +117,17 @@
     </footer>
 
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script>
+
+        var img1 = document.querySelectorAll(".img1");
+        img1.forEach(function(element) {
+            element.addEventListener("mouseover", function (event) {
+                console.log("over");
+                element.style.filter = "none";
+            });
+        });
+
+    </script>
     
 </body>
 </html>
