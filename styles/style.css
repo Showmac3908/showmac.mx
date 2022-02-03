@@ -279,7 +279,21 @@ a {
 }
 
 .default {
-    transform: translateZ(-150deg) rotateX(0deg) rotateY(15deg);
+    transform: translateZ(-150px) rotateX(320deg) rotateY(45deg);
+}
+
+#fullpage {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    top: 2900px;
+    left: 25%;
+    width: 100vh;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-color: black;
 }
 
 /* footer */

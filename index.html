@@ -93,6 +93,8 @@
         </div>
     </div>
 
+    <div id="fullpage" onclick="this.style.display = 'none';"></div>
+
     <div class="gallery js-flickity"
         data-flickity-options='{ "cellAlign": "left", "contain": true }'>
         <div class="gallery-cell">
@@ -142,7 +144,17 @@
         $(window).scroll(function() {
             var scroll = $(this).scrollTop();
             scroll > 800 ? myvid.pause() : myvid.play()
-        })
+        });
+
+        var imgs = document.querySelectorAll('.container-cube .box .pic img');
+        var fullpage = document.querySelector('#fullpage');
+
+        imgs.forEach(img => {
+            img.addEventListener('click', function() {
+                fullpage.style.backgroundImage = 'url(' + img.src + ')';
+                fullpage.style.display = 'block';
+            });
+        });
     </script>
     
 </body>
