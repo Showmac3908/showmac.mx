@@ -2,8 +2,8 @@
     overflow: hidden;
     display: flex;
     align-items: center;
-    padding-bottom: 500px;
-    padding-top: 130px;
+    padding-bottom: 400px;
+    padding-top: 180px;
 }
 
 .wrapper {
@@ -47,71 +47,91 @@
 
 .serv {
     width: 900px;
-    height: 200px;
+    height: 400px;
     color: white;
-    margin-top: 50px;
+    margin-top: 150px;
     text-align: center;
 }
 
 .serv h1 {
-    font-size: 32px;
+    font-size: 60px;
     margin-top: 20px;
     margin-bottom: 50px;
 }
 
+.serv p {
+    font-size: 20px;
+}
+
+.serv-list {
+    height: 100px;
+    width: 60%;
+    background-color: rgb(165, 42, 42);
+    margin: 100px auto;
+}
+
+.serv ul {
+    margin-top: 50px;
+}
+
+.serv ul li {
+    float: none;
+    font-size: 20px;
+}
+
 #servicio1 {
     position: absolute;
-    top: 110px;
-    left: 100px;
+    top: 200px;
+    left: 250px;
     z-index: 2;
     color: white;
     text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
     background-color: transparent;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 #servicio2 {
     position: absolute;
-    top: 300px;
+    top: 500px;
     left: 150px;
     z-index: 2;
     color: white;
     text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
     background-color: transparent;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 #servicio3 {
     position: absolute;
-    top: 10px;
-    left: 50px;
+    top: 840px;
+    left: 190px;
     z-index: 2;
     color: white;
     text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
     background-color: transparent;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 #servicio4 {
     position: absolute;
-    top: 10px;
-    left: 50px;
+    top: 270px;
+    left: 1200px;
     z-index: 2;
     color: white;
     text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
     background-color: transparent;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 #servicio5 {
     position: absolute;
-    top: 10px;
-    left: 50px;
+    top: 670px;
+    left: 1000px;
     z-index: 2;
     color: white;
     text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
     background-color: transparent;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 @media (max-width: 1500px) {

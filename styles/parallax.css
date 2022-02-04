@@ -1,8 +1,8 @@
 .parallax {
-    background-image: url('../images/about2.png');
-    height: 840px;
+    background-image: url('../images/fondo1.jpeg'), url('../images/fondo2.jpg'), url('../images/fondo3.jpeg');
+    height: 1600px;
     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: left, center, right;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: contain;
 }

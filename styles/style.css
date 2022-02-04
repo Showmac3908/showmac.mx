@@ -22,7 +22,7 @@
 
 img {
     left: 0;
-    height: 80px;
+    height: 50px;
 }
 
 ul {
@@ -167,6 +167,7 @@ a {
     width: 1500px;
     height: 600px;
     align-self: center;
+    margin-top: 300px;
 }
 
 .serv1 {
@@ -175,7 +176,8 @@ a {
     justify-self: center;
     text-align: center;
     color: white;
-    padding-right: 300px;
+    padding-right: 700px;
+    font-size: 24px;
 }
 
 .serv2 {
@@ -184,7 +186,8 @@ a {
     justify-self: center;
     text-align: center;
     color: white;
-    padding-left: 300px;
+    padding-left: 700px;
+    font-size: 24px;
 }
 
 .gallery {
@@ -225,15 +228,15 @@ a {
 /* cubo */
 
 .container-cube {
-    width: 300px;
-    height: 300px;
-    margin: 50px auto 150px;
+    width: 600px;
+    height: 600px;
+    margin: 500px auto 500px;
     perspective: 1200px;
 }
 
 .container-cube .box {
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 600px;
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.5s;
@@ -243,8 +246,8 @@ a {
     position: absolute;
     left: 0;
     top: 0;
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 600px;
     box-shadow: 0px 0px 5px #fff;
 }
 
@@ -255,27 +258,27 @@ a {
 }
 
 .container-cube .box .pic:nth-child(1) {
-    transform: translateZ(150px);
+    transform: translateZ(300px);
 }
 
 .container-cube .box .pic:nth-child(2) {
-    transform: rotateY(-180deg) translateZ(150px);
+    transform: rotateY(-180deg) translateZ(300px);
 }
 
 .container-cube .box .pic:nth-child(3) {
-    transform: rotateY(90deg) translateZ(150px);
+    transform: rotateY(90deg) translateZ(300px);
 }
 
 .container-cube .box .pic:nth-child(4) {
-    transform: rotateY(-90deg) translateZ(150px);
+    transform: rotateY(-90deg) translateZ(300px);
 }
 
 .container-cube .box .pic:nth-child(5) {
-    transform: rotateX(90deg) translateZ(150px);
+    transform: rotateX(90deg) translateZ(300px);
 }
 
 .container-cube .box .pic:nth-child(6) {
-    transform: rotateX(-90deg) translateZ(150px);
+    transform: rotateX(-90deg) translateZ(300px);
 }
 
 .default {
@@ -286,7 +289,7 @@ a {
     display: none;
     position: absolute;
     z-index: 100;
-    top: 2900px;
+    top: 5400px;
     left: 25%;
     width: 100vh;
     height: 100vh;
@@ -302,12 +305,13 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 200px 0;
 }
 
 footer h2 {
     align-self: center;
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     color: white;
 }
 
@@ -346,13 +350,17 @@ footer h2 {
     justify-self: start;
 }
 
+.footer1 img {
+    height: 130px;
+}
+
 .footer2 a i {
-    font-size: 30px;
+    font-size: 60px;
     transition: .5s;
 }
 
 .footer3 a i {
-    font-size: 30px;
+    font-size: 60px;
     transition: .5s;
 }
 
@@ -373,6 +381,7 @@ footer h2 {
 .phone p, .mail p {
     padding-left: 10px;
     transition: .5s;
+    font-size: 40px;
 }
 
 .phone:hover, .mail:hover {
@@ -388,31 +397,32 @@ footer h2 {
 
 .fb-insta i {
     padding-left: 20px;
-    font-size: 44px;
+    font-size: 70px;
+    transition: .5s;
 }
 
 .fa-facebook {
-    color: rgb(0, 0, 255);
+    color: rgb(51, 51, 255);
 }
 
 .fa-facebook:hover {
-    color: rgb(60, 60, 253);
+    color: rgb(21, 21, 255);
 }
 
 .fa-instagram {
-    color: rgb(255, 0, 136);
+    color: rgb(255, 79, 173);
 }
 
 .fa-instagram:hover {
-    color: rgb(255, 60, 164);
+    color: rgb(255, 0, 136);
 }
 
 .fa-whatsapp {
-    color: green;
+    color: rgb(81, 255, 81);
 }
 
 .fa-whatsapp:hover {
-    color: rgb(60, 136, 60);
+    color: rgb(0, 255, 0);
 }
 
 @media (max-width: 1500px) {
