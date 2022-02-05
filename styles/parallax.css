@@ -1,8 +1,9 @@
 .parallax {
-    background-image: url('../images/fondo1.jpeg'), url('../images/fondo2.jpg'), url('../images/fondo3.jpeg');
-    height: 1600px;
+    background-image: url('../images/fondo/fondo1.jpeg'), url('../images/fondo/fondo6.png'), url('../images/fondo/fondo3.png');
+    height: 1600px; 
     background-attachment: fixed;
     background-position: left, center, right;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: contain;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, .2);
 }

@@ -53,8 +53,12 @@
     text-align: center;
 }
 
+.serv button {
+    font-size: 30px;
+}
+
 .serv h1 {
-    font-size: 60px;
+    font-size: 54px;
     margin-top: 20px;
     margin-bottom: 50px;
 }
