@@ -359,10 +359,10 @@ footer h2 {
 
 .container-footer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 30% 40% 30%;
     grid-template-rows: repeat(2, 1fr);
     height: 300px;
-    width: 60%;
+    width: 100%;
     align-self: center;
     background-color: transparent;
 }
@@ -423,7 +423,7 @@ footer h2 {
 .phone p, .mail p {
     padding-left: 10px;
     transition: .5s;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .phone:hover, .mail:hover {
@@ -431,7 +431,7 @@ footer h2 {
 }
 
 .fb-insta {
-    display: -webkit-box;
+    display: contents;
     padding: 5px 0 0 10%;
     text-decoration: none;
     width: 100%;

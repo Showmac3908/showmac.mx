@@ -87,11 +87,12 @@
     }
 
     .phone p, .mail p {
-        font-size: 30px;
+        font-size: 20px;
+        padding-top: 4px;
     }
 
     .fb-insta i {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     footer h2 {
@@ -181,10 +182,6 @@
 
     footer {
         margin: 0;
-    }
-
-    .container-footer {
-        width: 80%;
     }
 
     .event1 {
@@ -333,6 +330,14 @@
     .container-contact2 {
         padding-top: 35%;
     }
+
+    .footer1 img {
+        height: 50px;
+    }
+
+    .phone p, .mail p {
+        font-size: 16px;
+    }
     
 }
 
@@ -342,20 +347,24 @@
         width: 90%;
     }
 
-    .container-footer {
-        width: 90%;
+    .footer4 {
+        margin-bottom: 20px;
     }
 
     .footer1 img {
         height: 50px;
     }
 
-    .footer2 a i, .footer3 a i, .phone p, .mail p {
+    .phone p, .mail p {
+        padding-top: 9px;
+    }
+
+    .footer2 a i, .footer3 a i {
         font-size: 26px;
     }
 
     .fb-insta i {
-        font-size: 40px;
+        font-size: 34px;
     }
 
     .wrapper img {
@@ -497,8 +506,9 @@
         height: 35px;
     }
 
-    .footer2 a i, .footer3 a i, .phone p, .mail p {
-        font-size: 20px;
+    .phone p, .mail p {
+        padding-top: 4px;
+        font-size: 14px;
     }
 
     .fb-insta i {
@@ -591,6 +601,13 @@
 
 @media (max-width: 450px) {
 
+    .footer4 {
+        grid-area: 2 / 2 / 3 / 4;
+        text-align: start;
+        align-self: center;
+        justify-self: start;
+    }
+
     img {
         height: 24px;
     }
@@ -669,11 +686,16 @@
     }
 
     .footer1 img {
-        height: 24px;
+        height: 30px;
     }
 
-    .footer2 a i, .footer3 a i, .phone p, .mail p {
-        font-size: 14px;
+    .footer2 a i, .footer3 a i {
+        font-size: 20px;
+    }
+
+    .phone p, .mail p {
+        padding-top: 2px;
+        font-size: 12px;
     }
 
     .fb-insta {
@@ -681,7 +703,7 @@
     }
 
     .fb-insta i {
-        font-size: 20px;
+        font-size: 26px;
     }
 
     .serv {
@@ -792,15 +814,16 @@
     }
 
     .footer1 img {
-        height: 22px;
+        height: 26px;
     }
 
-    .footer2 a i, .footer3 a i, .phone p, .mail p {
-        font-size: 12px;
-    }
-
-    .fb-insta i {
+    .footer2 a i, .footer3 a i {
         font-size: 16px;
+    }
+
+    .phone p, .mail p {
+        padding-top: 0;
+        font-size: 12px;
     }
 
     #servicio1 {
@@ -942,12 +965,16 @@
         height: 22px;
     }
 
-    .footer2 a i, .footer3 a i, .phone p, .mail p {
+    .footer2 a i, .footer3 a i {
+        font-size: 14px;
+    }
+
+    .phone p, .mail p {
         font-size: 10px;
     }
 
     .fb-insta i {
-        font-size: 16px;
+        font-size: 22px;
         padding-left: 10px;
     }
 
