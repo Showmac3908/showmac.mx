@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./styles/flickity.css" media="screen">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/parallax.css">
+    <link rel="stylesheet" href="./styles/device-width.css">
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 </head>
 <body>
@@ -51,7 +52,7 @@
                 <img src="./images/galeria/Lomas/img4.jpg" alt="">
             </div>
             <div class="imagen4">
-                <img src="./images/galeria/Cupra/img2.jpg" alt="">
+                <img src="./images/galeria/Cupra/img3.jpg" alt="">
             </div>
             <div class="imagen5">
                 <img src="./images/Showmac.png" alt="">
@@ -79,7 +80,7 @@
                     que cada organización o cliente reciba atención
                     personalizada y servicios inigualables.</p>
                 </div>
-                <div id="fullpage" onclick="this.style.display = 'none';"></div>
+                <div id="fullpage"></div>
         </div>
     </div>
 
@@ -94,18 +95,27 @@
         </div>
     </div>
 
-    <!--<div class="gallery js-flickity"
+    <div class="gallery js-flickity"
         data-flickity-options='{ "cellAlign": "left", "contain": true }'>
         <div class="gallery-cell">
-            <img src="./images/carrusel1.jpg" alt="">
+            <img src="./images/cubo/img1.jpg" alt="">
         </div>
         <div class="gallery-cell">
-            <img src="./images/carrusel2.jpg" alt="">
+            <img src="./images/cubo/img2.jpg" alt="">
         </div>
         <div class="gallery-cell">
-            <img src="./images/carrusel3.jpg" alt="">
+            <img src="./images/cubo/img3.jpg" alt="">
         </div>
-    </div>-->
+        <div class="gallery-cell">
+            <img src="./images/cubo/img4.jpg" alt="">
+        </div>
+        <div class="gallery-cell">
+            <img src="./images/cubo/img5.jpg" alt="">
+        </div>
+        <div class="gallery-cell">
+            <img src="./images/cubo/img6.jpg" alt="">
+        </div>
+    </div>
     
     <footer>
         <div class="container-footer">
@@ -146,15 +156,6 @@
             scroll > 800 ? myvid.pause() : myvid.play()
         });
 
-        var imgs = document.querySelectorAll('.container-cube .box .pic img');
-        var fullpage = document.querySelector('#fullpage');
-
-        imgs.forEach(img => {
-            img.addEventListener('click', function() {
-                fullpage.style.backgroundImage = 'url(' + img.src + ')';
-                fullpage.style.display = 'block';
-            });
-        });
     </script>
     
 </body>
