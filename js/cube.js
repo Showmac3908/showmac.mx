@@ -27,8 +27,8 @@
             e.stopPropagation();
             var x1 = e.clientX;
             var y1 = e.clientY;
-            xN += (x1 - x)*0.0025;
-            yN += (y1 - y)*0.0025;
+            xN += (x1 - x)*0.005;
+            yN += (y1 - y)*0.005;
             box.style.transform = 'translateZ(-150px) rotateY(' + xN + 'deg) rotateX(' + -yN + 'deg)';
         }
         function up() {
