@@ -1,0 +1,62 @@
+@font-face {
+    font-family: VMHead;
+    src: url("../fonts/Montserrat-Medium.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 0; 
+    left: 0; 
+    z-index: 10;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a {
+    font-size: 30px;
+}
+
+#page-img {
+    left: 0;
+    height: 50px;
+}
+
+#pages:hover{
+    font-size: 38px;
+}
+
+#page-img, #pages {
+    transition: all .3s;
+}
+
+#page-img:hover {
+    height: 58px;
+}
